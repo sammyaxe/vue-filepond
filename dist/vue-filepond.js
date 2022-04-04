@@ -2,7 +2,7 @@
  * vue-filepond v7.0.2
  * A handy FilePond adapter component for Vue
  * 
- * Copyright (c) 2021 PQINA
+ * Copyright (c) 2022 PQINA
  * https://pqina.nl/filepond
  * 
  * Licensed under the MIT license.
@@ -106,8 +106,7 @@
           class: this.className,
           required: this.required,
           multiple: this.allowMultiple,
-          accept: this.acceptedFileTypes,
-          capture: this.captureMethod
+          accept: this.acceptedFileTypes
         })]);
       },
       created: function created() {
